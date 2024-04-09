@@ -1,0 +1,21 @@
+{
+  "outDir": "./dist/",
+  "plugins": [],
+  "include": ["./**/*"],
+  "exclude": ["dist"],
+
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "noEmitOnError": true,
+    "types": ["node"],
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "downlevelIteration": true
+  }
+}
