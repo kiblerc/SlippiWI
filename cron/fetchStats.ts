@@ -1,6 +1,4 @@
 import { getPlayerDataThrottled } from './slippi'
-import { GoogleSpreadsheet } from 'google-spreadsheet';
-import creds from '../secrets/creds.json';
 import * as syncFs from 'fs';
 import * as path from 'path';
 import util from 'util';
@@ -11,12 +9,7 @@ const fs = syncFs.promises;
 const execPromise = util.promisify(exec);
 
 const getPlayerConnectCodes = async (): Promise<string[]> => {
-  const doc = new GoogleSpreadsheet(settings.spreadsheetID);
-  await doc.useServiceAccountAuth(creds);
-  await doc.loadInfo(); // loads document properties and worksheets
-  const sheet = doc.sheetsByIndex[0];
-  const rows = (await sheet.getRows()).slice(1); // remove header row
-  return [...new Set(rows.map((r) => r._rawData[1]).filter(r => r !== ''))] as string[]
+    return ['C4D#69', 'DUFF#838', 'YBAI#170', 'NATE#925', 'BLRG#257', 'BO#80', 'UMAR#289', 'AS#656', 'IRON#446', 'VIAL#2', 'JACK#925', 'SF#0', 'MSZ#006', 'CAT#614', 'SNAP#1', 'ARCA#521', 'TM#42', 'PENG#444', 'IBS#20', 'DUSKY#96', 'BRO#0', 'GRIF#526', 'PHRX#0', 'AWAE#209', 'DENZ#432', 'HIRO#702', 'XDXD#579', 'SFAT#9', 'DASH#909', 'GGG#366', 'DAHONG#8', 'CALP#463', 'DCCD#590', 'MAYBE#0', 'VYGR#415', 'LARS#342', 'OWEN#256', 'ITLY#654', 'CHAD#543', 'GOTH#666', 'RUSS#204', 'KB#795', 'ELZA#459'];
 };
 
 const getPlayers = async () => {

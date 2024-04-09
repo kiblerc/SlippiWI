@@ -48,7 +48,7 @@
     "tabletop": "^1.6.3",
     "tailwindcss": "^3.2.4",
     "ts-loader": "^9.4.2",
-    "ts-node": "^10.9.1",
+    "ts-node": "^10.9.2",
     "webpack-bundle-analyzer": "^4.4.2"
   },
   "devDependencies": {
