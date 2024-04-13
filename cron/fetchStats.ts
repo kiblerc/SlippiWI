@@ -9,7 +9,7 @@ const fs = syncFs.promises;
 const execPromise = util.promisify(exec);
 
 const getPlayerConnectCodes = async (): Promise<string[]> => {
-  return ['KIBS#345', 'KITE#0', 'CSD#497', 'G2W#0', 'RUMP#435', 'FIVE#721', 'RYSE#504', 'LORD#533', 'HERT#720', 'POOP#438', 'CLAR813', 'JUST#974', 'RAW#632', 'BEEBZ#96', 'JSP#353', 'THIS#283', 'MAPL#972', 'BRUS#217'];
+  return ['KIBS#345', 'KITE#0', 'CSD#497', 'G2W#0', 'RUMP#435', 'FIVE#721', 'RYSE#504', 'LOWH#158', 'CANT#504', 'CHCO#192', 'LMAO#249', 'PURO#774', 'VINN#389', 'THIS#283', 'AWOO#233', 'AMPS#207', 'CFR#303', 'ATLA#808', 'SHOO#817', 'BIGS#1', 'LIT#420', 'LAN#459', 'ALEX#414', 'ICAN#307', 'MOO#000', 'SNES#495', 'JMT#0', 'BART#638', 'WOOZ#442', 'FLXX#619', 'LILF#921', 'NEPH#113', 'LORD#533', 'HERT#720', 'POOP#438', 'CLAR813', 'JUST#974', 'RAW#632', 'BEEBZ#96', 'JSP#353', 'THIS#283', 'MAPL#972', 'BRUS#217'];
 };
 
 const getPlayers = async () => {
