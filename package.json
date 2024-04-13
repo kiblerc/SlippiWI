@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/rtivital/react-pages-boilerplate/issues"
   },
-  "homepage": "https://github.com/kiblerc/SlippiWI",
+  "homepage": "https://kiblerc.github.io/SlippiWI",
   "dependencies": {
     "buffer": "^6.0.3",
     "classnames": "^2.3.1",
