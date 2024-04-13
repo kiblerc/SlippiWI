@@ -54,7 +54,7 @@ export default function HomePage() {
 
   return (
     <div className="flex flex-col items-center h-screen p-8">
-      <img className="h-48" src={ColoradoFlag} alt="colorado flag" />
+      <img className="h-48" src={ColoradoFlag} alt="wisconsin flag" />
       <h1 className="text-3xl m-4 text-center text-white">
         {settings.title}
       </h1>
