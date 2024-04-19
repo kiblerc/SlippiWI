@@ -7,7 +7,7 @@ import timestamp from '../../../../cron/data/timestamp.json';
 import dayjs from 'dayjs'
 import relativeTime from 'dayjs/plugin/relativeTime' // import plugin
 import * as settings from '../../../../settings'
-import ColoradoFlag from '../../../../images/Flag_of_Colorado.svg';
+import ColoradoFlag from '../../../../images/Flag_of_Colorado.png';
 dayjs.extend(relativeTime)
 
 
